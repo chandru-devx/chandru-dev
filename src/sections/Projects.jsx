@@ -2,6 +2,7 @@ import { ArrowUpRight, Github } from "lucide-react";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
 
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
@@ -19,7 +20,7 @@ const projects = [
     title: "Ai-Code-Reviewer",
     description:
       "AI-based tool that reviews code and suggests improvements using the Gemini API.",
-    image: "",
+    image: project4,
     tags: ["Gemini Api", "React", "Tailwind"],
     link: "https://ai-code-reviewer-zeta-two.vercel.app",
     github: "https://github.com/chandru-devx/Ai-Code-Reviewer.git",
